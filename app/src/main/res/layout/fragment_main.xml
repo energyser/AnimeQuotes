@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.main.MainFragment">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/randomQuotesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random_quotes"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/purple_500" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/quotesByTitleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/quotes_by_title"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/purple_500" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/quotesByCharacterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/quotes_by_character"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/purple_500" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Anime Quotes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random_quotes">Random quotes</string>
+    <string name="quotes_by_title">Quotes by title</string>
+    <string name="quotes_by_character">Quotes by character</string>
+    <string name="quote">Quote: </string>
+    <string name="character">Character: </string>
+    <string name="anime">Anime: </string>
+    <string name="please_press_back_and_try_again">Please press \'back\' and try again.</string>
+</resources>

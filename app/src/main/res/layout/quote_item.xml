@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!-- quote_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anime"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/animeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            tools:text="One-Punch Man" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/character"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            tools:text="Saitama" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quote"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quoteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:text="My very long quote bla bla bla My very long quote bla bla bla My very long quote bla bla bla My very long quote bla bla bla" />
+    </LinearLayout>
+
+
+</LinearLayout>
